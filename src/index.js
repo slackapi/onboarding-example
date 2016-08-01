@@ -41,6 +41,7 @@ slack.on('star_added', 'pin_added', 'reaction_added', payload => {
     }
   });
 
+
   // save the message and update the timestamp
   slack.send(message).then(res => {
     let {ts, channel} = res.data;
