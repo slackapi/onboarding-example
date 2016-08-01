@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Example onboarding bot using Slack's Event API",
   "scripts": {
-    "start": "env $(cat .env | xargs) node src/index.js"
+    "start": "node src/index.js"
   },
   "author": "John Agan <jagan@slack-corp.com>",
   "dependencies": {
