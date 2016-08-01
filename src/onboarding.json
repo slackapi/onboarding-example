@@ -1,0 +1,25 @@
+{
+  "welcome": {
+    "text": "Welcome to Slack! Get started by completing the steps below.",
+    "attachments": [
+      {
+        "event": "star_added",
+        "title": "Star a Message",
+        "title_link": "https://get.slack.help/hc/en-us/articles/201331016-Using-stars",
+        "text": "Stars are a way to mark an item in Slack as important. You can star channels or direct messages to move them to the top of your left sidebar, or star messages so you can easily come back to them later."
+      }, 
+      {
+        "event": "reaction_added",
+        "title": "Respond With a Reaction Emoji",
+        "title_link": "https://get.slack.help/hc/en-us/articles/206870317-Emoji-reactions",
+        "text": "You can quickly respond to any message on Slack with an emoji reaction. Reactions can be used for any purpose: voting, checking off to-do items, showing excitement."      
+      },
+      {
+        "event": "pin_added",
+        "title": "Pin a Message",
+        "title_link": "https://get.slack.help/hc/en-us/articles/205239997-Pinning-messages-and-files",
+        "text": "Important messages and files can be pinned to the details pane in any channel or direct message, including group messages, for easy reference."
+      }
+    ]
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "name": "slack-onboarding-example",
+  "version": "1.0.0",
+  "description": "Example onboarding bot using Slack's Event API",
+  "scripts": {
+    "start": "env $(cat .env | xargs) node src/index.js"
+  },
+  "author": "John Agan <jagan@slack-corp.com>",
+  "dependencies": {
+    "tinyspeck": "^1.0.3"
+  }
+}
