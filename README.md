@@ -47,7 +47,7 @@ The onboarding script is driven by [onboarding.json](src/onboarding.json). The a
 ## Running Locally
 
 ### Environment
-This app requires three environment variables.
+This app requires two environment variables.
 
 * `TOKEN` - The Slack token used to post messages
 * `PORT` - The port to host the webserver on
